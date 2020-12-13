@@ -2,6 +2,8 @@ body{
   font-family: Arial, Verdana, sans-serif;
   background-color: #eee;
   padding: 15px;
+  height: 1080px !important;
+  width: 1900px !important;
 }
 
 .header{
@@ -27,6 +29,7 @@ body{
   height: 100%;
   border: none;
 }
+
 .right{
   width: 50%;
   font-size: 130%;
@@ -44,11 +47,19 @@ body{
 .mvv-monitor-departures{
   border-left: none !important;
   border-right: none !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
-.mvv-monitor-header{
+#Abfahrten .mvv-monitor-header{
+  display: none;
+}
+#Abfahrten .mvv-monitor-header-container{
   display: none;
 }
 .mvv-monitor-footer-content{
+  display: none;
+}
+.first-row{
   display: none;
 }
 .mvv-monitor-departures{
