@@ -34,7 +34,15 @@ body{
   width: 50%;
   font-size: 130%;
   border-left: 1px solid #005ea8;
-  padding: 5px;
+  padding-right: 20px;
+  max-height: 1000px;
+}
+.clock {
+  text-align: right;
+  color: #005ea8;
+  font-size: 60px;
+  font-family: Orbitron, serif;
+  letter-spacing: 7px;
 }
 .right table{
   width: 100%;

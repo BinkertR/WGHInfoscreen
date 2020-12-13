@@ -18,6 +18,8 @@
 
     </div>
     <div class="right">
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
 
         <div id="Haltestelle" class="mvv-monitor-header-container">
             <div class="mvv-monitor-subheader"><p> Haltestelle: Hohenzollernplatz</p></div>
@@ -60,4 +62,5 @@
 
 </div>
 </body>
+<script src="infoscreen.js"></script>
 </html>
