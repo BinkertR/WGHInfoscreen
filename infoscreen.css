@@ -33,7 +33,7 @@ body{
 .right{
   width: 50%;
   font-size: 130%;
-  border-left: 1px solid #005ea8;
+  border-left: 2px solid #005ea8;
   padding-right: 20px;
   max-height: 1000px;
 }
@@ -55,6 +55,7 @@ body{
 .mvv-monitor-departures{
   border-left: none !important;
   border-right: none !important;
+  border-bottom: 2px solid #005ea8;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
