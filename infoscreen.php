@@ -6,7 +6,7 @@
 
     <link href="infoscreen.css" type="text/css" rel="stylesheet">
 </head>
-<body>
+<body onload="onLoadDocument()">
 <!-- <div class="header">
   WGH INFOMONITOR
 </div> -->
