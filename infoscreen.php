@@ -14,7 +14,7 @@
     <div class="left">
         <!-- <iframe src="inc/weihnachtsfeier.html" width="" height=""></iframe> -->
         <!-- <object data="inc/weihnachtsfeier.svg" type="image/svg+xml"> -->
-        <img src="inc/weihnachtsfeier.svg" alt="Loading">
+        <img src="inc/Frohe-Weihnachten.svg" alt="Loading">
 
     </div>
     <div class="right">
