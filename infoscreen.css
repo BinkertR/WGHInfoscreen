@@ -38,7 +38,7 @@ body{
   max-height: 1000px;
 }
 .clock {
-  text-align: right;
+  text-align: left;
   color: #005ea8;
   font-size: 60px;
   font-family: Orbitron, serif;
