@@ -6,25 +6,18 @@
 
     <link href="infoscreen.css" type="text/css" rel="stylesheet">
 </head>
-<body onload="onLoadDocument()">
-<!-- <div class="header">
-  WGH INFOMONITOR
-</div> -->
-<div class="content_middle">
-    <div class="left">
-        <img src="inc/Vertrauenspersonen_Vortrag_Einladung.svg" alt="Loading">
-
-    </div>
+<body>
+  <div class="content_middle">
+      <div class="left">
+          <img id="anouncement_img" src="" alt="Loading">
+      </div>
+      <div class="right">
+          <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
 
-
-    <div class="right">
-        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-
-
-        <div id="Haltestelle" class="mvv-monitor-header-container">
-            <div class="mvv-monitor-subheader"><p> Haltestelle: Hohenzollernplatz</p></div>
-        </div>
+          <div id="Haltestelle" class="mvv-monitor-header-container">
+              <div class="mvv-monitor-subheader"><p> Haltestelle: Hohenzollernplatz</p></div>
+          </div>
 
         <div id="Abfahrten">
             <!-- erstellt mit: https://www.mvv-muenchen.de/fahrplanauskunft/fuer-entwickler/homepage-services/index.html-->

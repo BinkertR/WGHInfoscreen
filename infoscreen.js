@@ -34,5 +34,27 @@ function showTime(){
 }
 showTime();
 
+//NOTE: Diashow
+//anouncement Ordner kann nicht von Javascript ausgelesen werden, deswegen sind alle Dateien im folgenden Array gespeichert
+var file_array = ['Vertrauenspersonen_Vortrag_Einladung.svg',
+                  'Januar_Plan.png']
 
+var counter = 0;
+function changeAnouncement(index){
+  diashow_src = "anouncement/" + String(file_array[index]);
+  console.log(diashow_src);
+  console.log(index);
+  if (document.getElementById("anouncement_img")) {
+    document.getElementById("anouncement_img").src=diashow_src;
+  }
 
+  counter++;
+  if (counter == file_array.length) {
+    counter = 0;
+  }
+}
+
+changeAnouncement(counter);
+setInterval(function(){
+    changeAnouncement(counter);
+}, 10000)
