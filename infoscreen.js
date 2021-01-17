@@ -37,7 +37,7 @@ showTime();
 //NOTE: Diashow
 //anouncement Ordner kann nicht von Javascript ausgelesen werden, deswegen sind alle Dateien im folgenden Array gespeichert
 var file_array = ['Vertrauenspersonen_Vortrag_Einladung.svg',
-                  'test.png']
+                  'Januar_Plan.png']
 
 var counter = 0;
 function changeAnouncement(index){
