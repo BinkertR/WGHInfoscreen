@@ -37,6 +37,12 @@ body{
   padding: 5px;
   text-align: center;
 }
+.dateInformationTable{
+  width: 100%;
+}
+.dateInformationTable td{
+  padding: 5px 2px;
+}
 .left img{
   width: 100%;
   height: 75%;
