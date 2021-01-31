@@ -9,15 +9,47 @@
 <body>
   <div class="content_middle">
       <div class="left">
+          <div class="DatesContainer">
+              <div id="Tutoren" class="dateInformation">
+                  <h2>Tutoren</h2>
+                  <table>
+                      <tr>
+                          <td><b>Secret Hitler Online</b></td>
+                          <td>04.02.</td><td>20:30 Uhr</td>
+                      </tr>
+
+                  </table>
+              </div>
+
+              <div id="Bar" class="dateInformation">
+                  <h2>Bar 77</h2>
+              </div>
+
+              <div id="Heimvertretung" class="dateInformation">
+                  <h2>Heimvertretung</h2>
+                  <table>
+                      <tr><td><b>Studierendenrat</b></td>   <td>SS 21</td></tr>
+                      <tr><td><b>Heimart</b></td>   <td>03.02.</td>     <td>19:30</td></tr>
+                      <tr><td><b>Vollversammlung</b></td>   <td>03.02.</td>     <td>20:30</td></tr>
+                  </table>
+              </div>
+          </div>
           <img id="anouncement_img" src="" alt="Loading">
       </div>
+
       <div class="right">
-          <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-
-
-          <div id="Haltestelle" class="mvv-monitor-header-container">
-              <div class="mvv-monitor-subheader"><p> Haltestelle: Hohenzollernplatz</p></div>
+          <div id="clockAndWeather">
+              <div class="clockContainer">
+                <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+              </div>
+              <div id="WeatherWidgetContainer">
+                  <a class="weatherwidget-io" href="https://forecast7.com/de/48d1411d58/munich/" data-mode="Current" data-days="3" data-theme="original" data-basecolor="#005ea8" >Munich, Germany</a>
+                    <script>
+                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                    </script>
+              </div>
           </div>
+
 
         <div id="Abfahrten">
             <!-- erstellt mit: https://www.mvv-muenchen.de/fahrplanauskunft/fuer-entwickler/homepage-services/index.html-->
