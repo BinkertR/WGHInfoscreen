@@ -36,7 +36,7 @@ showTime();
 
 //NOTE: Diashow
 //anouncement Ordner kann nicht von Javascript ausgelesen werden, deswegen sind alle Dateien im folgenden Array gespeichert
-var file_array = ['Secret Hitler Plakat.svg', 'Einladung Heimrat.jpeg', 'Tutorenfahrt Save the Date.svg', 'Einladung Vollversammlung.jpeg']
+var file_array = ['Tutorenfahrt Save the Date.svg', 'Viel Erfolg bei den Klausuren.svg']
 
 var counter = 0;
 function changeAnouncement(index){
